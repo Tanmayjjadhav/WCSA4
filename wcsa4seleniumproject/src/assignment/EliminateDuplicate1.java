@@ -2,7 +2,9 @@ package assignment;
 
 import java.time.Duration;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.TreeSet;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -26,6 +28,8 @@ public class EliminateDuplicate1 {
 	      List<WebElement> allOptions = sel.getOptions();
 	      
 	              HashSet<String> s = new HashSet<String>();
+	          // TreeSet<String> s = new TreeSet<String>();
+	        //LinkedList<String> s = new LinkedList<String>();
 	              for(int i=0;i<allOptions.size();i++)
 	              {
 	            	  WebElement opts = allOptions.get(i);
