@@ -27,6 +27,7 @@ public class ScrollDownTillParicularElement {
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		System.out.println(xaxis);
 		System.out.println(yaxis);
+		
 		jse.executeScript("window.scrollBy("+xaxis+","+(yaxis-200)+")");
 	}
 
