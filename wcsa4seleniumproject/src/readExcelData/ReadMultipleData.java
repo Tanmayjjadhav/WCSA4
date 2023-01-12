@@ -15,7 +15,7 @@ public class ReadMultipleData {
 public static void main(String[] args) throws EncryptedDocumentException, IOException {
 		
 	
-	for(int i =1;i<=7;i++)
+	for(int i =1;i<=6;i++)
 	{
 		FileInputStream fis = new FileInputStream("./data/TestData.xlsx");// provide the excel sheet file path
 		Workbook wb = WorkbookFactory.create(fis);// make the file for Read

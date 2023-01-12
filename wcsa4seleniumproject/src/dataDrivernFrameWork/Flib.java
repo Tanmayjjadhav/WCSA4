@@ -14,7 +14,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class Flib {
 
 	// use to store only the Generic Reusable Methods
-	
+
 	public String readExcelData(String excelPath,String sheetName,int rowCount,int cellCount) throws EncryptedDocumentException, IOException 
 	{
 		FileInputStream fis = new FileInputStream(excelPath);
@@ -24,6 +24,18 @@ public class Flib {
 		Cell cell = row.getCell(cellCount);
 		String data = cell.getStringCellValue();
 		return data;	
-		
+
 	}
+
+
+	// to get Last RowCount
+	public int rowCount(String excelPath,String sheetName) throws EncryptedDocumentException, IOException 
+	{
+		FileInputStream fis = new FileInputStream(excelPath);	
+		Workbook wb = WorkbookFactory.create(fis);
+		Sheet sheet = wb.getSheet(sheetName);
+		int rc = sheet.getLastRowNum();
+		return rc;
+	}
+
 }
