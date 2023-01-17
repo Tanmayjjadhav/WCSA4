@@ -19,9 +19,6 @@ public class LoginPage {
 	
 	
 	
-	
-	
-	
 	public LoginPage(WebDriver driver) 
 	
 	{
@@ -75,6 +72,8 @@ public class LoginPage {
     	PasswordTB.sendKeys(invalidPassword);
     	Thread.sleep(1000);
     	LoginButton.click();
+    	Thread.sleep(1000);
+    	UsernameTB.clear();
     }
     	
 	
