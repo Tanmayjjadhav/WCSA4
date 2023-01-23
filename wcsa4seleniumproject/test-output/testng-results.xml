@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-23T15:48:38 IST" name="Suite" finished-at="2023-01-23T15:48:44 IST" duration-ms="5745">
+    <groups>
+    </groups>
+    <test started-at="2023-01-23T15:48:38 IST" name="Test" finished-at="2023-01-23T15:48:41 IST" duration-ms="2436">
+      <class name="testNGPack.SelectBrowser">
+        <test-method signature="openBrowser(java.lang.String,java.lang.String)[pri:0, instance:testNGPack.SelectBrowser@62230c58]" started-at="2023-01-23T15:48:38 IST" name="openBrowser" finished-at="2023-01-23T15:48:41 IST" duration-ms="2407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- testNGPack.SelectBrowser -->
+    </test> <!-- Test -->
+    <test started-at="2023-01-23T15:48:41 IST" name="Test2" finished-at="2023-01-23T15:48:44 IST" duration-ms="3278">
+      <class name="testNGPack.SelectBrowser">
+        <test-method signature="openBrowser(java.lang.String,java.lang.String)[pri:0, instance:testNGPack.SelectBrowser@662b4c69]" started-at="2023-01-23T15:48:41 IST" name="openBrowser" finished-at="2023-01-23T15:48:44 IST" duration-ms="3275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- testNGPack.SelectBrowser -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
