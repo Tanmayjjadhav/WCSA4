@@ -16,7 +16,7 @@ public class ActiTimeXpathLoginpage {
 		 driver.findElement(By.xpath("//input[@name='pwd']")).sendKeys("manager");
 		 
 		 
-		 driver.findElement(By.xpath("//a[.='Login']")).click();// by using text.
+		 driver.findElement(By.id("loginButton")).click();// by using text.
 		 
 		 Thread.sleep(4000);
 		 driver.quit();
